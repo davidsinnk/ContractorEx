@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{93890F26-B4B0-4B4E-BCE8-EC6A047DDE6A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ContractorEx/MainDisplay.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContractorEx.iOS/Main.cs">
     <Files>
       <File FileName="ContractorEx/App.xaml.cs" Line="20" Column="61" />
       <File FileName="ContractorEx/MainDisplay.xaml.cs" Line="22" Column="55" />
-      <File FileName="ContractorEx/MainDisplay.xaml" Line="64" Column="61" />
-      <File FileName="ContractorEx/LogIn.xaml" Line="1" Column="1" />
+      <File FileName="ContractorEx/LogIn.xaml" Line="6" Column="27" />
       <File FileName="ContractorEx/App.xaml" Line="7" Column="15" />
+      <File FileName="ContractorEx/MainDisplay.xaml" Line="89" Column="1" />
+      <File FileName="ContractorEx.iOS/Main.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,10 +15,11 @@
             <Node name="ContractorEx" expanded="True">
               <Node name="Images" expanded="True" />
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainDisplay.xaml" expanded="True" selected="True" />
+              <Node name="MainDisplay.xaml" expanded="True" />
             </Node>
             <Node name="ContractorEx.iOS" expanded="True">
               <Node name="Resources" expanded="True" />
+              <Node name="Main.cs" selected="True" />
             </Node>
           </Node>
         </State>

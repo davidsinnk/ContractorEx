@@ -21,24 +21,28 @@
                 </StackLayout>
                 <Label x:Name="PageHeading" Text="Welcome back BigWalt" FontSize="20" FontAttributes="Bold"/>
                     <StackLayout Spacing="20">
-                         <Grid HeightRequest="200" BackgroundColor="#bcf4af" Padding="10,5,10,5">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="30"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="20"/>
-                            </Grid.RowDefinitions>
-                            
-                            <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Recent Searches" TextColor="Fuchsia" FontSize="20" 
-                                   FontAttributes="Bold" HorizontalTextAlignment="Start"/>
-                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
-                                   x:Name="ImageRecent1" Grid.Row ="1" Grid.Column="0" BackgroundColor="Silver"/>
-                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
-                                   x:Name="ImageRecent2" Grid.Row ="1" Grid.Column="1" BackgroundColor="Silver"/>
-                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
-                                   x:Name="ImageRecent3" Grid.Row ="1" Grid.Column="2" BackgroundColor="Silver" />
-                            <Label Grid.Row="2" Grid.ColumnSpan="3" Text="View More" TextColor="Fuchsia" HorizontalTextAlignment="Start"/>
-                        </Grid> 
-            
+                        <StackLayout Spacing="0" Padding="0,5,0,0">    
+                            <SearchBar Placeholder="Search for Pipe, Lumber, Chainsaws..." BackgroundColor="#bcf4af" 
+                                       TextColor="#bf0dee" />
+                            <Grid HeightRequest="205" BackgroundColor="#bcf4af" Padding="10,0,10,5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="5"/>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="20"/>
+                                </Grid.RowDefinitions>
+
+                                <Label Grid.Row="1" Grid.ColumnSpan="3" Text="Recent Searches" TextColor="Fuchsia" FontSize="20" 
+                                       FontAttributes="Bold" HorizontalTextAlignment="Start"/>
+                                <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                       x:Name="ImageRecent1" Grid.Row ="2" Grid.Column="0" BackgroundColor="Silver"/>
+                                <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                       x:Name="ImageRecent2" Grid.Row ="2" Grid.Column="1" BackgroundColor="Silver"/>
+                                <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                       x:Name="ImageRecent3" Grid.Row ="2" Grid.Column="2" BackgroundColor="Silver" />
+                                <Label Grid.Row="3" Grid.ColumnSpan="3" Text="View More" TextColor="Fuchsia" HorizontalTextAlignment="Start"/>
+                            </Grid> 
+                        </StackLayout>
                           <Grid HeightRequest="200" BackgroundColor="#bcf4af" Padding="10,5,10,5">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="30"/>
