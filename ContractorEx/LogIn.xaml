@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="LogIn" 
+             xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ContractorEx.LogIn">
+    <ContentPage.Content >
+         
+       <Grid HorizontalOptions="Fill" VerticalOptions="Fill">
+                <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" x:Name="backgroundImage" />
+                <BoxView HorizontalOptions="Fill" VerticalOptions="Fill" BackgroundColor="#50a724" Opacity="0.8"/>
+            
+            
+                <StackLayout Padding="20,20,20,20" VerticalOptions="End">
+                
+                    <Label Text="Log In" TextColor="White" FontSize="50" HorizontalOptions="Center" FontAttributes="Bold"/>
+                
+                    <Label Text="Log In ID" TextColor="#bf0dee" FontSize="18"/>
+                    <Entry Keyboard="Email" Placeholder="E-mail or User Name" TextChanged="Handle_TextChanged" x:Name="emialField" FontSize="15"/>
+                    <Label Text="Password" TextColor="#bf0dee" FontSize="18"/>
+                    <Entry Keyboard="Text" IsPassword="true" x:Name="passwordField" FontSize="15" Placeholder="Password"/>
+                    
+                
+                    <Button Text="Forgot Password" TextColor="#bf0dee" HorizontalOptions="End" HeightRequest="15"/>
+                    <StackLayout Padding="0,20,0,0">
+                        <Button x:Name="btnLogIn" Text="Log Me In" BackgroundColor="#bcf4af" TextColor="#bf0dee" FontSize="20" Clicked="btnLogInClick"/>
+                        <Button Text="Not a memeber? Sign up here!!!" TextColor="#bf0dee"/>
+                    </StackLayout>
+            
+                </StackLayout>
+        </Grid>      
+    </ContentPage.Content>
+</ContentPage>

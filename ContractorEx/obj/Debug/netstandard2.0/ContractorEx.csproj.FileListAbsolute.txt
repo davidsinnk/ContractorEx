@@ -1,0 +1,16 @@
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/bin/Debug/netstandard2.0/ContractorEx.deps.json
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/bin/Debug/netstandard2.0/ContractorEx.dll
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/bin/Debug/netstandard2.0/ContractorEx.pdb
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/ContractorEx.csprojAssemblyReference.cache
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/LogIn.xaml.g.cs
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/ContractorEx.csproj.CoreCompileInputs.cache
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/ContractorEx.AssemblyInfoInputs.cache
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/ContractorEx.AssemblyInfo.cs
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/ContractorEx.dll
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/ContractorEx.pdb
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/LandingPage.xaml.g.cs
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/MainDisplay.xaml.g.cs
+/Users/davidsinnk/Projects/ContractorEx/ContractorEx/obj/Debug/netstandard2.0/SignUpMainPage.xaml.g.cs

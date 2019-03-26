@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+    <Folder Include="Modals\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\Logo.png" />
+    <None Remove="Images\MineCraftWater.png" />
+    <None Remove="Images\MineCraftWood.png" />
+    <None Remove="Images\MineCraftWoodBlock.jpg" />
+    <None Remove="Images\LogoCrop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Logo.png" />
+    <EmbeddedResource Include="Images\MineCraftWater.png" />
+    <EmbeddedResource Include="Images\MineCraftWood.png" />
+    <EmbeddedResource Include="Images\MineCraftWoodBlock.jpg" />
+    <EmbeddedResource Include="Images\LogoCrop.png" />
+  </ItemGroup>
+</Project>

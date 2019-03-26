@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Where the Pros Go"
+             xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ContractorEx.MainDisplay"
+             BackgroundColor="#50a724">
+    
+    <ContentPage.ToolbarItems >
+        <ToolbarItem Icon="SlideOut.png" Activated="Handle_Activated" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+    <ScrollView>
+     <Grid HorizontalOptions="Fill" VerticalOptions="Fill" Padding="0,20,0,20">
+        <Image HorizontalOptions="StartAndExpand" VerticalOptions="Fill" Aspect="AspectFill" x:Name="LogoImageSmall"/>
+        <BoxView HorizontalOptions="Fill" VerticalOptions="Fill" BackgroundColor="#50a724" Opacity="0.8"/>
+            <StackLayout>   
+                <StackLayout Orientation="Horizontal" HeightRequest="35">
+                    <Image HorizontalOptions="Start" HeightRequest="50" Aspect="AspectFill" x:Name="backgroundImage" />
+                    <Label Text="Contractor Exchange" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" 
+                           TextColor="White" FontSize="32" FontAttributes="Bold" FontFamily="Arial"/>
+                </StackLayout>
+                <Label x:Name="PageHeading" Text="Welcome back BigWalt" FontSize="20" FontAttributes="Bold"/>
+                    <StackLayout Spacing="20">
+                         <Grid HeightRequest="200" BackgroundColor="#bcf4af" Padding="10,5,10,5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="20"/>
+                            </Grid.RowDefinitions>
+                            
+                            <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Recent Searches" TextColor="Fuchsia" FontSize="20" 
+                                   FontAttributes="Bold" HorizontalTextAlignment="Start"/>
+                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                   x:Name="ImageRecent1" Grid.Row ="1" Grid.Column="0" BackgroundColor="Silver"/>
+                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                   x:Name="ImageRecent2" Grid.Row ="1" Grid.Column="1" BackgroundColor="Silver"/>
+                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                   x:Name="ImageRecent3" Grid.Row ="1" Grid.Column="2" BackgroundColor="Silver" />
+                            <Label Grid.Row="2" Grid.ColumnSpan="3" Text="View More" TextColor="Fuchsia" HorizontalTextAlignment="Start"/>
+                        </Grid> 
+            
+                          <Grid HeightRequest="200" BackgroundColor="#bcf4af" Padding="10,5,10,5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="20"/>
+                            </Grid.RowDefinitions>
+                            
+                            <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Currently Watching to Exchange" TextColor="Fuchsia" FontSize="20" 
+                                   FontAttributes="Bold" HorizontalTextAlignment="Start"/>
+                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                   x:Name="ImageRecent4" Grid.Row ="1" Grid.Column="0" BackgroundColor="Silver"/>
+                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                   x:Name="ImageRecent5" Grid.Row ="1" Grid.Column="1" BackgroundColor="Silver"/>
+                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                   x:Name="ImageRecent6" Grid.Row ="1" Grid.Column="2" BackgroundColor="Silver" />
+                            <Label Grid.Row="2" Grid.ColumnSpan="3" Text="View More" TextColor="Fuchsia" HorizontalTextAlignment="Start"/>
+                        </Grid> 
+                    
+                        <Grid HeightRequest="200" BackgroundColor="#bcf4af" Padding="10,5,10,5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="20"/>
+                            </Grid.RowDefinitions>
+                            
+                            <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Your Items For Exchange" TextColor="Fuchsia" FontSize="20" 
+                                   FontAttributes="Bold" HorizontalTextAlignment="Start"/>
+                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                   x:Name="ImageRecent7" Grid.Row ="1" Grid.Column="0" BackgroundColor="Silver"/>
+                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                   x:Name="ImageRecent8" Grid.Row ="1" Grid.Column="1" BackgroundColor="Silver"/>
+                            <Image HorizontalOptions="Fill" VerticalOptions="Fill" Aspect="AspectFill" 
+                                   x:Name="ImageRecent9" Grid.Row ="1" Grid.Column="2" BackgroundColor="Silver" />
+                            <Label Grid.Row="2" Grid.ColumnSpan="3" Text="View More" TextColor="Fuchsia" HorizontalTextAlignment="Start"/>
+                        </Grid>                  
+                    
+                </StackLayout>
+            </StackLayout>
+            
+     </Grid>        
+    </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

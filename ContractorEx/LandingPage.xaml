@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:ContractorEx" 
+             x:Class="ContractorEx.LandingPage"
+             Padding="0,20,0,0"
+             BackgroundColor="#50a724" 
+             Title="LandingPage">
+    
+    
+    <StackLayout BackgroundColor="#50a724" 
+                 VerticalOptions="Center"
+                 Spacing="1">
+
+           <Image x:Name="CXLogo" Aspect="AspectFill"/>
+   
+           <Label Text="Contractor"
+                  FontSize="70"
+                  TextColor="White"
+                  FontAttributes="Bold"
+                  HorizontalOptions="Center"/>
+        
+           <Label Text="Exchange"
+                  FontSize="65"
+                  TextColor="White"
+                  FontAttributes="Bold"
+                  HorizontalOptions="Center"/>    
+        
+           <Label Text="Where the Pros go to trade"
+                  FontSize="18"
+                  TextColor="White"
+                  HorizontalOptions="Center"/>
+        
+         <StackLayout BackgroundColor="#50a724" 
+                     VerticalOptions="Center"
+                     Spacing="20"
+                      Padding="0,40,0,0">       
+            
+                <Button Text="Log In" 
+                        x:Name="btnLogIn"
+                        Clicked="Handle_Clicked"
+                        FontSize="25"
+                        TextColor="#563bcc"
+                        BackgroundColor="#bcf4af"/>
+            
+                <Button Text="Sign Up"
+                        x:Name="btnSignUp" Clicked="Handle_Clicked_1"
+                        FontSize="25"
+                        TextColor="#563bcc"
+                        BackgroundColor="#bcf4af"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
