@@ -6,7 +6,7 @@
       <File FileName="ContractorEx/LogIn.xaml" Line="6" Column="27" />
       <File FileName="ContractorEx/App.xaml" Line="7" Column="15" />
       <File FileName="ContractorEx/MainDisplay.xaml" Line="89" Column="1" />
-      <File FileName="ContractorEx.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="ContractorEx.iOS/Main.cs" Line="21" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,7 +28,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ContractorEx.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ContractorEx.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.14319E00-D463-4F0B-884D-631131066619" />
+  <MonoDevelop.Ide.ItemProperties.ContractorEx.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C007A9B6-1ACE-4213-95A0-E198095BD05E" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
